@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="手动启动界面,手动输入参数,然后点击启动,直接启动"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<EditText
+		android:ems="60"
+		android:layout_height="wrap_content"
+		android:hint="手动输入工程名称,不带后缀"
+		android:layout_width="match_parent"
+		android:id="@+id/hand"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="启动"
+		android:onClick="run"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="默认sd卡根目录/storage/emulated/0"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="此处用于无法获取到intent传值"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="love值"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="空"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/love_hint"/>
+
+</LinearLayout>
+
